@@ -1,0 +1,24 @@
+{
+  "name": "trails-controller",
+  "version": "1.0.0",
+  "description": "Trails Controller Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trailsjs/trails-controller.git"
+  },
+  "keywords": [
+    "trails",
+    "trailsjs",
+    "controller"
+  ],
+  "author": "Trails.js Team <hello@trailsjs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trailsjs/trails-controller/issues"
+  },
+  "homepage": "https://github.com/trailsjs/trails-controller#readme"
+}
