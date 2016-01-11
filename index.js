@@ -8,6 +8,10 @@ module.exports = class TrailsController {
     this.app = app
   }
 
+  get api () {
+    return this.app.api
+  }
+
   get log () {
     return this.app.log
   }
