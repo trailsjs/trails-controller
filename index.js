@@ -1,11 +1,12 @@
 'use strict'
 
 /**
- * Trails Controller Class. 
+ * Trails Controller Class.
  */
 module.exports = class TrailsController {
   constructor (app) {
     this.app = app
+    this.api = app.api
   }
 
   get log () {
