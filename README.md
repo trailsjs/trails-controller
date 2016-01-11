@@ -27,8 +27,8 @@ class MyController extends Controller {
 ## License
 [MIT](https://github.com/trailsjs/trails/blob/master/LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/trails.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/trails
+[npm-image]: https://img.shields.io/npm/v/trails-controller.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/trails-controller
 [ci-image]: https://img.shields.io/travis/trailsjs/trails-controller/master.svg?style=flat-square
 [ci-url]: https://travis-ci.org/trailsjs/trails-controller
 [daviddm-image]: http://img.shields.io/david/trailsjs/trails-controller.svg?style=flat-square
