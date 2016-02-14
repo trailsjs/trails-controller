@@ -1,11 +1,28 @@
 'use strict'
 
 /**
- * Trails Controller Class. 
+ * Trails Controller Class.
  */
 module.exports = class TrailsController {
+
   constructor (app) {
-    this.app = app
+    Object.defineProperty(this, 'app', {
+      enumerable: false,
+      value: app
+    })
+  }
+
+  /**
+   * Controller configuration
+   */
+  static config () {
+  }
+
+  /**
+   * Return the id of this controller
+   */
+  get id () {
+    return this.constructor.name.replace(/(\w+)Controller/, '$1').toLowerCase()
   }
 
   get log () {

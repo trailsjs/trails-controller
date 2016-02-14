@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/trailsjs/trails-controller/issues"
   },
-  "homepage": "https://github.com/trailsjs/trails-controller#readme"
+  "homepage": "https://github.com/trailsjs/trails-controller#readme",
+  "devDependencies": {
+    "eslint-config-trails": "^1.0.4"
+  }
 }
