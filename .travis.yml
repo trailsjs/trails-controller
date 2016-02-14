@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '4'
+- stable
+notifications:
+  email: false
+  webhooks:
+    urls:
+    - https://webhooks.gitter.im/e/54f8a1e753f859f5ca1a
+    on_start: never
+    on_failure: change
+deploy:
+  provider: npm
+  email: hello@trailsjs.io
+  api_key:
+    secure: nTRjgqwxgdedwsqWgKJ9+1N9vocj8qXElPAO9N/7gs4wVlwTGBZ3X7lIWTsyGQU2EIylgZmNXref7+SEEQeWl4AXAoeoySnfTJ8g87Ltd/WbXDsfZP7Il781uucba5dP0jo+1FfPsQZHwDG9Adx01IBQl+yip8Gjel6ccsam5fu95QgbrZ+4YvEf9NIoNPJFBlfvE2VLvBm7F6NGKWfidQjafDrq71PJGD1QAyaOqMcXOMkoRHXE2U0BiZAMYzBLTxOtoNayGM0bHyrcMfrOIrXEY5b3AzzUOimGOwMdrENG3EUf1NCKVoMkyC4Z6G7vlrsK6EH5Xwfxr+ypXlFLttCnpv75795Gs2sPw1YL0a/R9b2m1XunigbS/J+IvCEzR0qisOVmBpI/wboAzlU83e2cWQWHcTKnm1jjUqMwEaJo/a3UIyUA07E6aGY60VDADv1NdowWeRYf+hcloTvbgfCDAPlC3L8Dz+0hFuFviJo/jOpwdhcSLPps/MOCnjFnDfd+E1eD6wGE2CN05k4aXOMlyvhIgrVf7snQDVslAR+vjeZ0yl9xKi2X1sajT37QX8HCpU2RkNnSzy7+LXfyfwp8NqUoRnbKlcJaoEOMpDgyLNl5tieODWZxOfKF8VlfKPIcLq7rVNc6EjgiGbJh/HiHfOsz5BvhtHaTTHTq2RE=
+  on:
+    tags: true
+    repo: trailsjs/trails-controller
