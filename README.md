@@ -7,6 +7,8 @@
 [![Code Climate][codeclimate-image]][codeclimate-url]
 [![Follow @trailsjs on Twitter][twitter-image]][twitter-url]
 
+### Note: This module is deprecated in Trails v2. It will be merged into [trailsjs/trails](https://github.com/trailsjs/trails) in v3.
+
 Trails Controller Class. Exposes Trails Application resources to the class
 instances. Controllers should extend this Class.
 
@@ -36,7 +38,7 @@ class MyController extends Controller {
 [codeclimate-image]: https://img.shields.io/codeclimate/github/trailsjs/trails-controller.svg?style=flat-square
 [codeclimate-url]: https://codeclimate.com/github/trailsjs/trails-controller
 [gitter-image]: http://img.shields.io/badge/+%20GITTER-JOIN%20CHAT%20%E2%86%92-1DCE73.svg?style=flat-square
-[gitter-url]: https://gitter.im/trailsjs/trails-controller
+[gitter-url]: https://gitter.im/trailsjs/trails
 [twitter-image]: https://img.shields.io/twitter/follow/trailsjs.svg?style=social
 [twitter-url]: https://twitter.com/trailsjs
 
